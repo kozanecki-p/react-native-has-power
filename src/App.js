@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
 
+import PetSelector from './components/PetSelector/PetSelector';
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        The app goes here
+        <PetSelector />
       </div>
     );
   }
